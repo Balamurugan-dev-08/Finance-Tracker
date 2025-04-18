@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body{
+    @apply bg-slate-900 text-white relative;
+
+  }
+  button{
+    @apply hover:scale-110 transition-all duration-100;
+  }
+}
+
+@layer utilities{
+  
+  .btn{
+    @apply px-4 py-2 text-sm capitalize  rounded-xl;
+  }
+  .btn-primary{
+    @apply self-start text-lime-400 bg-slate-700  border-slate-700 ;
+  }
+  .btn-primary-outline{
+    @apply  text-lime-400 border-lime-400 border;
+  }
+  .btn-danger{
+    @apply  text-white bg-red-500 border-red-500 ;
+  }
+  .btn-danger{
+    @apply  text-white bg-red-500 border-red-500 ;
+  }
+}
