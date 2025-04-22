@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import ShowExpense from './models/ShowExpense'
 
 
-const ExpenseItem = ({expense}) => {
+const ExpenseItem = ({expense}) =>{
   const [modelExpenseCategory, SetModelExpenseCategory] = useState(false); 
  
   return (
